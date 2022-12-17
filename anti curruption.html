@@ -1,14 +1,14 @@
 <html>
     <head>
-<Body background="bg1.webp"> 
+
 
         <meta charset="utf-8">
         <meta http-eqiv="x-Ua-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>my page</title>
         <link rel="stylesheet" type="text/css" href="Anti curruption css.css">   
-        
-
+     </head>   
+<body background="bg1.webp"> 
             
             <nav>
                 
@@ -160,31 +160,6 @@
                       <span class="dot" onclick="currentSlide(5)"></span> 
                     </div>
                     
-<script>
-let slideIndex = 1;
-showSlides(slideIndex);                   
-function plusSlides(n) {
-showSlides(slideIndex += n);
-}                    
-function currentSlide(n) {
-showSlides(slideIndex = n);
-}                    
-function showSlides(n) {
-let i;
-let slides = document.getElementsByClassName("mySlides");
-let dots = document.getElementsByClassName("dot");
-if (n > slides.length) {slideIndex = 1}    
-if (n < 1) {slideIndex = slides.length}
-for (i = 0; i < slides.length; i++) {
-slides[i].style.display = "none";  
-}
-for (i = 0; i < dots.length; i++) {
-dots[i].className = dots[i].className.replace(" active", "");
-}
-slides[slideIndex-1].style.display = "block";  
-dots[slideIndex-1].className += " active";
-}
-</script>
 <br>
 <h1  style="font-family:Oswald;"><b><u>What is Corruption</u></b></h1>
 <p>Corruption is a form of dishonesty or a criminal offense which is undertaken by a person or an organization which is entrusted in a position of authority, in order to acquire illicit benefits or abuse power for one's personal gain. Corruption may involve many activities which include bribery, influence peddling and the embezzlement and it may also involve practices which are legal in many countries.[1] Political corruption occurs when an office-holder or other governmental employee acts with an official capacity for personal gain. Corruption is most common in kleptocracies, oligarchies, narco-states, and mafia states.
@@ -247,7 +222,7 @@ It is in everyone’s interest to report corruption and misconduct.<br>
 <p>designation:&emsp;&emsp;&emsp;<input type="text" id="designation" name="designation"></p>
 <p>demanded amount:<input type="number" id="amount" name="amount"></p>
 <p><b>Gender:</b> male<input type="radio" id="male" value="male">female<input type="radio" id="female" value="female"></p>
-<p>choose a file (any formet)</p><input type="file" id="myFile" /> <br /><br<p/>
+<p>choose a file (any formet)</p><input type="file" id="myFile" /> <br/><br/>
      
     <input type="submit" value="submit">
 
@@ -280,5 +255,4 @@ A 2014 report sponsored by McAfee estimated that cybercrime resulted in $445 bil
 </div>
 
 </body>
-</head>
  </html>
